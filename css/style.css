@@ -1,0 +1,49 @@
+:root{
+    --color-yellow : #CFAB4C;
+}
+
+* {
+    font-family: "Figtree", sans-serif;
+}
+
+.header{
+    height: 114px;
+}
+
+.text-primary {
+    color: var(--color-yellow) !important;
+}
+
+.main{
+    min-height: calc(100vh - 114px);
+}
+
+.main.background {
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.content{
+    max-width: 550px;
+    margin: 0 auto;
+}
+
+.btn-primary{
+    box-shadow: none;
+    background-color: var(--color-yellow) !important;
+    border: none;
+}
+
+.gradient.main{
+    background-image: linear-gradient(180deg, rgba(207, 171, 76, 11%), rgba(255, 255, 255, 56%));
+}
+
+.answer-container{
+    max-width: 440px;
+}
+
+.answer-btn:hover {
+    background-color: black !important;
+    color: white;
+}
